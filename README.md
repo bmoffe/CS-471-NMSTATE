@@ -3,4 +3,4 @@ Repository for Programming Languages (CS 471) assignments. All work done is my o
 
 ## As of August 30th, 2020, this repository contains:
 * endianness.c: A short C program to determine the endianness of your processor
-* program1.c: A short C program to show how aliasing in C is done.
+* program1.c: A short program to show how aliasing in C is done.
