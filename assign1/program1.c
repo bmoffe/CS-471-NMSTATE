@@ -5,11 +5,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// PRE: assumes that 
+// PRE: Assumes that name is split into 4 bytes each, using ASCII values. Assumes that values are formatted for little endian processor.
+// 
+// POST: Main will print out name using a character pointer to the integer array in which the characters of the name are stored. Main also shows where various parts of the program are stored in memory. 
 void main()
 {
 	int A[100];
+	static int c;
 	char * s;
+	c = 20;
 	A[0] = 66 + (114*256) + (105*256*256) + (97*256*256*256); //'BRIA'
 	A[1] = 110 + (110*256) + (97*256*256) + (32*256*256*256); //'NNA '
 	A[2] = 77 + (111*256) + (102*256*256) + (102*256*256*256); //'MOFF'
