@@ -1,6 +1,8 @@
 --Brianna Moffett
 --09.07.2020
 --prog2.adb
+--CS471
+--
 --Short Circuit Evaluation Experiments
 --
 --PRE: none
