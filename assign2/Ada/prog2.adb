@@ -23,6 +23,7 @@ procedure prog2 is
 begin
 	A := 1; --Set A to true
 --Start of var then call
+	--and testing
 	Put_Line("Testing 'and' + 'and then' (var then call)");
 	Put_Line("Testing with and (false and true)");
 	if A=0 and evaluate=1 then
@@ -52,6 +53,7 @@ begin
 		Put_Line("False");
 	end if;
 	Put_Line("");
+	--and then testing
 	Put_Line("Testing with and then (false and then true)");
 	if A=0 and then evaluate=1 then
 		Put_Line("True");
@@ -80,6 +82,7 @@ begin
 		Put_Line("False");
 	end if;
 --Start of call then var
+	--and testing
 	Put_Line("Testing 'and' + 'and then' (call then var)");
 	Put_Line("Testing and (false and true)");
 	if evaluate=0 and A=1 then
@@ -105,6 +108,7 @@ begin
 	else
 		Put_Line("False");
 	end if;
+	--and then testing
 	Put_Line("Testing with and then (false and then true)");
 	if evaluate=0 and then A=1 then --false then true
 		Put_Line("True");
