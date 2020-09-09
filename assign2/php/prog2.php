@@ -17,6 +17,36 @@ function evaluate(){
 }
 	echo "Beginning tests...\n";
 	$A = 1;
+	echo "Testing '&&' (call then var)\n";
+	if (!evaluate() && $A == 1){//false then true
+		echo "\tTrue\n";
+	}
+	else{
+		echo "\tFalse\n";
+	}
+	echo "";
+	if (evaluate() && $A == 0){//true then false
+		echo "\tTrue\n";
+	}
+	else{
+		echo "\tFalse\n";
+	}
+	echo "";
+	if (!evaluate() && $A == 1){//false then false
+		echo "\tTrue\n";
+	}
+	else{
+		echo "\tFalse\n";
+	}
+	echo "";
+	if (evaluate() && $A == 1){//true then true
+		echo "\tTrue\n";
+	}
+	else{
+		echo "\tFalse\n";
+	}
+	echo "";
+	echo "Testing 'and' (var then call)\n";
 	if($A == 0 && evaluate()){ //false then true
 		echo "\tTrue\n";
 	}
@@ -39,6 +69,57 @@ function evaluate(){
 	}
 	echo "";
 	if ($A == 0 && !evaluate()){//false then false
+		echo "\tTrue\n";
+	}
+	else{
+		echo "\tFalse\n";
+	}
+	echo "";
+        echo "Testing 'and' (call then var)\n";
+	if(!evaluate() and $A == 1){//false then true
+		echo "\tTrue\n";
+	}
+	else{
+		echo "\tFalse\n";
+	}
+	echo "";
+	if (evaluate() && $A == 0){//true then false
+		echo "\tTrue\n";
+	}
+	else{
+		echo "\tFalse\n";
+	}
+	echo "";
+	if (evaluate() and $A == 1){//true then true
+		echo "\tTrue\n";
+	}
+	else{
+		echo "\tFalse\n";
+	}
+	echo "";
+	echo "Testing 'and' (var then call)\n";
+	if ($A == 0 and evaluate()){//false then true
+		echo "\tTrue\n";
+	}
+	else{
+		echo "\tFalse\n";
+	}
+	echo "";
+	if ($A == 1 and !evaluate()){//true then false
+		echo "\tTrue\n";
+	}
+	else{
+		echo "\tFalse\n";
+	}
+	echo "";
+	if ($A == 1 and evaluate()){//true then true
+		echo "\tTrue\n";
+	}
+	else{
+		echo "\tFalse\n";
+	}
+	echo "";
+	if ($A == 0 and !evaluate()){//false then false
 		echo "\tTrue\n";
 	}
 	else{
