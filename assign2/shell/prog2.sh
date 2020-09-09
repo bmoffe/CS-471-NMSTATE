@@ -1,5 +1,16 @@
 #!/bin/sh
-
+# Brianna Moffett
+# 09.09.2020
+# CS471
+# prog2.sh
+#
+# Short Circuit Evaluation Experiments
+#
+# PRE: none
+# POST: none
+# 
+# INPUT: none (from user), 0's and 1's (from program)
+# OUTPUT: True/False test results
 echo "Beginning experiments..."
 
 A=1

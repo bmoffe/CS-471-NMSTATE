@@ -8,6 +8,7 @@
 #
 # PRE: none
 # POST: none
+#
 # INPUT: none (from user), 0's and 1's (from program)
 # OUTPUT: True/False evaluations
 use warnings;

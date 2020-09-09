@@ -45,32 +45,4 @@ function evaluate(){
 		echo "\tFalse\n";
 	}
 	echo "";
-	if ($A == 0 || evaluate()){//false then true
-		echo "\tTrue\n";
-	}
-	else{
-		echo "\tFalse\n";
-	}
-	echo "";
-	if ($A == 1 || !evaluate()){//true then false
-		echo "\tTrue\n";
-	}
-	else{
-		echo "\tFalse\n";
-	}
-	echo "";
-	if ($A == 1 || evaluate()){//true then true
-		echo "\tTrue\n";
-	}
-	else{
-		echo "\tFalse\n";
-	}
-	echo "";
-	if ($A == 0 || !evaluate()){//false then false
-		echo "\tTrue\n";
-	}
-	else{
-		echo "\tFalse\n";
-	}
-	echo "";
 ?>

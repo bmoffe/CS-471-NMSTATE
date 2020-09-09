@@ -24,7 +24,7 @@ D a-tiinio.ads		20161214142926 aa04e5d6 ada.text_io.integer_io%s
 D a-unccon.ads		20170109082349 31484697 ada.unchecked_conversion%s
 D interfac.ads		20161214142939 5ab55268 interfaces%s
 D i-cstrea.ads		20161214142926 e53d8b8e interfaces.c_streams%s
-D prog2.adb		20200908225520 a71a51c2 prog2%b
+D prog2.adb		20200909191528 a71a51c2 prog2%b
 D system.ads		20170512081901 4635ec04 system%s
 D s-crtl.ads		20161214142926 0ebbdb71 system.crtl%s
 D s-exctab.ads		20161214142948 54135002 system.exception_table%s
