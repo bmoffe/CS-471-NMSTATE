@@ -46,6 +46,7 @@ if ($A == 1 && evaluate == 1){ # true then true
 else{
 	print("\tFalse\n");
 }
+print("\n");
 print("Testing call then var\n");
 if (evaluate == 0 && $A == 1){ # false then true
 	print("\tTrue\n");
@@ -53,18 +54,21 @@ if (evaluate == 0 && $A == 1){ # false then true
 else{
 	print("\tFalse\n");
 }
+print("\n");
 if (evaluate == 1 && $A == 0){ # true then false
 	print("\tTrue\n");
 }
 else{
 	print("\tFalse\n");
 }
+print("\n");
 if (evaluate == 1 && $A == 1){ #true then true
 	print("\tTrue\n");
 }
 else{
 	print("\tFalse\n");
 }
+print("\n");
 if (evaluate == 0 && $A == 0){ # false then false
 	print("\tTrue\n");
 }

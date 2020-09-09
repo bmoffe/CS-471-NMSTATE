@@ -18,57 +18,57 @@ function evaluate(){
 	echo "Beginning tests...\n";
 	$A = 1;
 	echo "Testing '&&' (call then var)\n";
-	if (!evaluate() && $A == 1){//false then true
+	if (evaluate() == 0 && $A == 1){//false then true
 		echo "\tTrue\n";
 	}
 	else{
 		echo "\tFalse\n";
 	}
 	echo "";
-	if (evaluate() && $A == 0){//true then false
+	if (evaluate() == 1 && $A == 0){//true then false
 		echo "\tTrue\n";
 	}
 	else{
 		echo "\tFalse\n";
 	}
 	echo "";
-	if (!evaluate() && $A == 1){//false then false
+	if (evaluate() == 0 && $A == 0){//false then false
 		echo "\tTrue\n";
 	}
 	else{
 		echo "\tFalse\n";
 	}
 	echo "";
-	if (evaluate() && $A == 1){//true then true
+	if (evaluate() == 1 && $A == 1){//true then true
 		echo "\tTrue\n";
 	}
 	else{
 		echo "\tFalse\n";
 	}
 	echo "";
-	echo "Testing 'and' (var then call)\n";
-	if($A == 0 && evaluate()){ //false then true
+	echo "Testing '&&' (var then call)\n";
+	if($A == 0 && evaluate() == 1){ //false then true
 		echo "\tTrue\n";
 	}
 	else{
 		echo "\tFalse\n";
 	}
 	echo "";
-	if ($A == 1 && !evaluate()){//true then false
+	if ($A == 1 && evaluate() == 0){//true then false
 		echo "\tTrue\n";
 	}
 	else{
 		echo "\tFalse\n";
 	}
 	echo "";
-	if ($A == 1 && evaluate()){//true then true
+	if ($A == 1 && evaluate() == 1){//true then true
 		echo "\tTrue\n";
 	}
 	else{
 		echo "\tFalse\n";
 	}
 	echo "";
-	if ($A == 0 && !evaluate()){//false then false
+	if ($A == 0 && evaluate() == 0){//false then false
 		echo "\tTrue\n";
 	}
 	else{
@@ -76,21 +76,27 @@ function evaluate(){
 	}
 	echo "";
         echo "Testing 'and' (call then var)\n";
-	if(!evaluate() and $A == 1){//false then true
+	if(evaluate() == 0 and $A == 1){//false then true
 		echo "\tTrue\n";
 	}
 	else{
 		echo "\tFalse\n";
 	}
 	echo "";
-	if (evaluate() && $A == 0){//true then false
+	if (evaluate() == 1 and $A == 0){//true then false
 		echo "\tTrue\n";
 	}
 	else{
 		echo "\tFalse\n";
 	}
 	echo "";
-	if (evaluate() and $A == 1){//true then true
+	if (evaluate() == 1 and $A == 1){//true then true
+		echo "\tTrue\n";
+	}
+	else{
+		echo "\tFalse\n";
+	}
+	if (evaluate() == 0 and $A == 0){ //false then false
 		echo "\tTrue\n";
 	}
 	else{
@@ -98,28 +104,28 @@ function evaluate(){
 	}
 	echo "";
 	echo "Testing 'and' (var then call)\n";
-	if ($A == 0 and evaluate()){//false then true
+	if ($A == 0 and evaluate() == 1){//false then true
 		echo "\tTrue\n";
 	}
 	else{
 		echo "\tFalse\n";
 	}
 	echo "";
-	if ($A == 1 and !evaluate()){//true then false
+	if ($A == 1 and evaluate() == 0){//true then false
 		echo "\tTrue\n";
 	}
 	else{
 		echo "\tFalse\n";
 	}
 	echo "";
-	if ($A == 1 and evaluate()){//true then true
+	if ($A == 1 and evaluate() == 1){//true then true
 		echo "\tTrue\n";
 	}
 	else{
 		echo "\tFalse\n";
 	}
 	echo "";
-	if ($A == 0 and !evaluate()){//false then false
+	if ($A == 0 and evaluate() == 0){//false then false
 		echo "\tTrue\n";
 	}
 	else{
