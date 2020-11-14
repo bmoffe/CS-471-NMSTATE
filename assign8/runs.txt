@@ -1,0 +1,446 @@
+javac MythreadTest.java
+----------------------------------------Run 1----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 0
+Thread is started 1
+Thread is exiting 0
+Thread is exiting 1
+Max: 393848433
+Min: 188543806
+Average: 291893952.000000
+Execution time in milliseconds: 51
+Main Thread has N as value 3
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 0
+Thread is exiting 0
+Thread is started 3
+Thread is started 1
+Thread is exiting 3
+Thread is exiting 1
+Thread is started 2
+Thread is exiting 2
+Max: 131616425
+Min: 10773427
+Average: 69508640.000000
+Execution time in milliseconds: 41
+Main Thread has N as value 10
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 4
+Thread is started 3
+Thread is exiting 3
+Thread is started 7
+Thread is started 0
+Thread is exiting 0
+Thread is started 5
+Thread is started 6
+Thread is started 2
+Thread is started 1
+Thread is exiting 2
+Thread is exiting 6
+Thread is exiting 4
+Thread is exiting 5
+Thread is exiting 7
+Thread is exiting 1
+Max: 8336059
+Min: 36482
+Average: 4438033.000000
+Execution time in milliseconds: 41
+Main Thread has N as value 36
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 16~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 7
+Thread is started 13
+Thread is started 12
+Thread is exiting 7
+Thread is exiting 13
+Thread is exiting 12
+Thread is started 9
+Thread is exiting 9
+Thread is started 6
+Thread is started 3
+Thread is started 4
+Thread is exiting 4
+Thread is started 1
+Thread is exiting 1
+Thread is exiting 3
+Thread is started 10
+Thread is exiting 10
+Thread is exiting 6
+Thread is started 5
+Thread is started 11
+Thread is exiting 5
+Thread is started 14
+Thread is exiting 14
+Thread is started 2
+Thread is exiting 2
+Thread is started 8
+Thread is exiting 11
+Thread is started 15
+Thread is exiting 8
+Thread is started 0
+Thread is exiting 0
+Thread is exiting 15
+Max: 32719
+Min: 102
+Average: 15314.000000
+Execution time in milliseconds: 38
+Main Thread has N as value 136
+Main thread exiting 
+----------------------------------------Run 2----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 1
+Thread is started 0
+Thread is exiting 1
+Thread is exiting 0
+Max: 389382920
+Min: 49265774
+Average: 276706144.000000
+Execution time in milliseconds: 37
+Main Thread has N as value 3
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 3
+Thread is started 0
+Thread is exiting 3
+Thread is exiting 0
+Thread is started 1
+Thread is started 2
+Thread is exiting 1
+Thread is exiting 2
+Max: 124023640
+Min: 14558706
+Average: 62937924.000000
+Execution time in milliseconds: 31
+Main Thread has N as value 10
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 2
+Thread is exiting 2
+Thread is started 0
+Thread is started 6
+Thread is started 5
+Thread is exiting 5
+Thread is started 1
+Thread is exiting 6
+Thread is exiting 0
+Thread is exiting 1
+Thread is started 4
+Thread is exiting 4
+Thread is started 7
+Thread is exiting 7
+Thread is started 3
+Thread is exiting 3
+Max: 8287438
+Min: 18178
+Average: 3611611.000000
+Execution time in milliseconds: 38
+Main Thread has N as value 36
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 16~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 0
+Thread is exiting 0
+Thread is started 14
+Thread is started 4
+Thread is started 10
+Thread is exiting 10
+Thread is started 8
+Thread is started 11
+Thread is started 2
+Thread is started 12
+Thread is started 15
+Thread is exiting 14
+Thread is exiting 15
+Thread is exiting 12
+Thread is exiting 2
+Thread is started 5
+Thread is exiting 5
+Thread is exiting 11
+Thread is exiting 8
+Thread is started 1
+Thread is started 9
+Thread is started 7
+Thread is exiting 7
+Thread is started 3
+Thread is started 13
+Thread is started 6
+Thread is exiting 4
+Thread is exiting 13
+Thread is exiting 6
+Thread is exiting 3
+Thread is exiting 9
+Thread is exiting 1
+Max: 32613
+Min: 64
+Average: 16093.000000
+Execution time in milliseconds: 45
+Main Thread has N as value 136
+Main thread exiting 
+----------------------------------------Run 3----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 1
+Thread is started 0
+Thread is exiting 1
+Thread is exiting 0
+Max: 365929908
+Min: 11485882
+Average: 124520912.000000
+Execution time in milliseconds: 32
+Main Thread has N as value 3
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 2
+Thread is exiting 2
+Thread is started 0
+Thread is started 1
+Thread is exiting 1
+Thread is started 3
+Thread is exiting 3
+Thread is exiting 0
+Max: 116736256
+Min: 139440
+Average: 53535488.000000
+Execution time in milliseconds: 43
+Main Thread has N as value 10
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 0
+Thread is exiting 0
+Thread is started 2
+Thread is exiting 2
+Thread is started 4
+Thread is exiting 4
+Thread is started 7
+Thread is exiting 7
+Thread is started 3
+Thread is exiting 3
+Thread is started 5
+Thread is exiting 5
+Thread is started 6
+Thread is exiting 6
+Thread is started 1
+Thread is exiting 1
+Max: 8352850
+Min: 65576
+Average: 3948850.000000
+Execution time in milliseconds: 37
+Main Thread has N as value 36
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 16~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 1
+Thread is started 5
+Thread is exiting 1
+Thread is exiting 5
+Thread is started 2
+Thread is exiting 2
+Thread is started 10
+Thread is exiting 10
+Thread is started 11
+Thread is exiting 11
+Thread is started 0
+Thread is exiting 0
+Thread is started 6
+Thread is started 12
+Thread is started 3
+Thread is started 8
+Thread is started 7
+Thread is exiting 7
+Thread is started 14
+Thread is started 4
+Thread is exiting 4
+Thread is started 13
+Thread is exiting 13
+Thread is started 9
+Thread is exiting 9
+Thread is started 15
+Thread is exiting 15
+Thread is exiting 14
+Thread is exiting 8
+Thread is exiting 3
+Thread is exiting 12
+Thread is exiting 6
+Max: 32109
+Min: 55
+Average: 15814.000000
+Execution time in milliseconds: 44
+Main Thread has N as value 136
+Main thread exiting 
+----------------------------------------Run 4----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 0
+Thread is started 1
+Thread is exiting 0
+Thread is exiting 1
+Max: 513605019
+Min: 74247912
+Average: 238750624.000000
+Execution time in milliseconds: 44
+Main Thread has N as value 3
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 1
+Thread is started 2
+Thread is exiting 1
+Thread is started 3
+Thread is exiting 3
+Thread is started 0
+Thread is exiting 0
+Thread is exiting 2
+Max: 130407209
+Min: 7746622
+Average: 61959060.000000
+Execution time in milliseconds: 37
+Main Thread has N as value 10
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 3
+Thread is started 7
+Thread is started 2
+Thread is exiting 3
+Thread is exiting 7
+Thread is exiting 2
+Thread is started 5
+Thread is exiting 5
+Thread is started 6
+Thread is exiting 6
+Thread is started 1
+Thread is exiting 1
+Thread is started 0
+Thread is exiting 0
+Thread is started 4
+Thread is exiting 4
+Max: 8317832
+Min: 2790
+Average: 3931167.000000
+Execution time in milliseconds: 35
+Main Thread has N as value 36
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 16~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 1
+Thread is started 3
+Thread is exiting 3
+Thread is started 10
+Thread is exiting 10
+Thread is started 13
+Thread is started 4
+Thread is exiting 4
+Thread is exiting 13
+Thread is started 2
+Thread is exiting 2
+Thread is started 12
+Thread is started 9
+Thread is started 0
+Thread is exiting 0
+Thread is started 8
+Thread is exiting 8
+Thread is started 14
+Thread is exiting 14
+Thread is started 6
+Thread is exiting 6
+Thread is started 5
+Thread is started 7
+Thread is started 15
+Thread is exiting 7
+Thread is exiting 5
+Thread is started 11
+Thread is exiting 11
+Thread is exiting 1
+Thread is exiting 12
+Thread is exiting 9
+Thread is exiting 15
+Max: 32743
+Min: 187
+Average: 17309.000000
+Execution time in milliseconds: 43
+Main Thread has N as value 136
+Main thread exiting 
+----------------------------------------Run 5----------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 1
+Thread is started 0
+Thread is exiting 1
+Thread is exiting 0
+Max: 486885033
+Min: 38716715
+Average: 292627136.000000
+Execution time in milliseconds: 30
+Main Thread has N as value 3
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 3
+Thread is started 2
+Thread is started 1
+Thread is exiting 3
+Thread is exiting 2
+Thread is started 0
+Thread is exiting 0
+Thread is exiting 1
+Max: 130189615
+Min: 3584800
+Average: 72234816.000000
+Execution time in milliseconds: 37
+Main Thread has N as value 10
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 6
+Thread is exiting 6
+Thread is started 5
+Thread is exiting 5
+Thread is started 0
+Thread is exiting 0
+Thread is started 4
+Thread is exiting 4
+Thread is started 7
+Thread is exiting 7
+Thread is started 1
+Thread is started 3
+Thread is exiting 3
+Thread is started 2
+Thread is exiting 2
+Thread is exiting 1
+Max: 8212479
+Min: 112178
+Average: 3988562.000000
+Execution time in milliseconds: 37
+Main Thread has N as value 36
+Main thread exiting 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~N: 16~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Thread is started 0
+Thread is started 8
+Thread is exiting 0
+Thread is exiting 8
+Thread is started 6
+Thread is exiting 6
+Thread is started 9
+Thread is started 5
+Thread is exiting 5
+Thread is started 2
+Thread is started 13
+Thread is started 10
+Thread is started 14
+Thread is exiting 14
+Thread is exiting 13
+Thread is exiting 2
+Thread is started 7
+Thread is exiting 9
+Thread is exiting 7
+Thread is started 4
+Thread is started 12
+Thread is started 1
+Thread is started 15
+Thread is exiting 15
+Thread is started 11
+Thread is started 3
+Thread is exiting 3
+Thread is exiting 10
+Thread is exiting 11
+Thread is exiting 1
+Thread is exiting 12
+Thread is exiting 4
+Max: 32637
+Min: 60
+Average: 16737.000000
+Execution time in milliseconds: 38
+Main Thread has N as value 136
+Main thread exiting 
